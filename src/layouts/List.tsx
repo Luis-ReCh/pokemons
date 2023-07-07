@@ -21,9 +21,12 @@ export default function List() {
           </Link>
         </header>
         <section>
-          {pokemons.map((pokemon) => {
+          {pokemons.map((pokemon, index) => {
             return (
-              <Link to={`/pokemon/${pokemon.name}`}>
+              <Link
+                to={`/pokemon/${pokemon.name}`}
+                key={`feature-card-${index}`}
+              >
                 <div className="p-4 hover:bg-black/10 text-center cursor-pointer">
                   {`${pokemon.name[0].toUpperCase()}${pokemon.name.substring(
                     1

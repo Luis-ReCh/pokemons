@@ -20,14 +20,14 @@ export default function PokemonDetail() {
         />
 
         <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 dark:bg-gray-800 dark:border-gray-700 ml-0 mt-20 md:mt-0 md:ml-24 ">
-          <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-red-600">
+          <h5 className="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-red-600">
             CARACTERISTICAS
           </h5>
           <ul className="space-y-3">
             <li>
               <a
                 href="#"
-                class="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white py-2"
+                className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white py-2"
               >
                 {/* <svg
                   aria-hidden="true"
@@ -234,7 +234,7 @@ export default function PokemonDetail() {
           <div>
             <a
               href="#"
-              class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400 py-2"
+              className="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400 py-2"
             >
               Todo lo que debes saber de Pokemon
             </a>
